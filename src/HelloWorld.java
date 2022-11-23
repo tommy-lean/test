@@ -11,6 +11,8 @@ public class HelloWorld {
         System.out.println(add(a, b));
         System.out.println(sub(a, b));
         System.out.println(mul(a, b));
+        System.out.println(div(a, b));
+
     }
 
     private static int add(int a, int b) {
@@ -23,6 +25,10 @@ public class HelloWorld {
 
     private static int mul(int a, int b) {
         return a * b;
+    }
+
+    private static int div(int a, int b) {
+        return a / b;
     }
 
 
