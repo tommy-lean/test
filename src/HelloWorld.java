@@ -14,6 +14,7 @@ public class HelloWorld {
         System.out.println(mod(a, b));
         System.out.println(pow(a, b));
         System.out.println(min(a, b));
+        System.out.println("Hello world");
 
     }
 
